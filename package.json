@@ -1,0 +1,27 @@
+{
+  "name": "ejse",
+  "version": "1.0.0",
+  "description": "A templating package similar to ejs but with built in layout and scoped include variables",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.js --format esm,cjs --dts"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
