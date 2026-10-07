@@ -1,7 +1,7 @@
-# Ejse usage 
+# Ejs-ex usage 
 A templating package similar to ejs but with built in layout and scoped include variables.
 
-## Ejse usage
+## Ejs-ex usage
 ```js
 const express = require("express");
 const path = require("path");

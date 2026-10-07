@@ -1,6 +1,6 @@
 {
-  "name": "ejse",
-  "version": "1.0.0",
+  "name": "ejs-ex",
+  "version": "1.2.0",
   "description": "A templating package similar to ejs but with built in layout and scoped include variables",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
