@@ -1,7 +1,7 @@
 {
   "name": "ejs-ex",
-  "version": "1.2.0",
-  "description": "A templating package similar to ejs but with built in layout and scoped include variables",
+  "version": "1.3.1",
+  "description": "A templating package similar to EJS with built-in layouts and scoped include variables",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "exports": {
@@ -11,17 +11,27 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
-    "build": "tsup src/index.js --format esm,cjs --dts"
+    "build": "tsup",
+    "prepack": "npm run build"
   },
-  "keywords": [],
-  "author": "Your Name",
+  "keywords": [
+    "ejs",
+    "template-engine",
+    "templating",
+    "express",
+    "express-template-engine",
+    "layouts",
+    "includes"
+  ],
+  "author": "Felix Ongom",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^25.9.1",
     "tsup": "^8.5.1",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   }
 }
